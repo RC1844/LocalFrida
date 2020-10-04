@@ -19,6 +19,6 @@ jobs:
         java-version: 1.8
     - name: Commit files
       run: |
-          {chmod +x gradlew}
+            chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
